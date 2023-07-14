@@ -31,11 +31,14 @@ https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
 In 1st part RandomForestClassifier achieved the best results.
 
 **Params**:
-- *n_estimators:* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;442
-- *criterion:* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; log_loss
-- *max_depth:* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;None
-- *min_samples_leaf:* &nbsp; 2
-- *min_samples_split:* &nbsp;4
+
+|      **Name**       | **Value** |
+|:-------------------:|:---------:|
+|    `n_estimator`    |    442    |
+|     `criterion`     | log_loss  |
+|     `max_depth`     |   None    |
+| `min_samples_leaf`  |     2     |
+| `min_samples_split` |     4     |
 
 **Accuracy**: 85%
 
